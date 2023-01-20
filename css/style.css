@@ -1,4 +1,20 @@
 *{
-    border: 2px solid red;
-    padding: 20px;
+    border: 1px solid red;
+    padding: 0;
+    margin:0;
+}
+form{
+    background-color: red;
+}
+label{
+    background-color: yellow;
+}
+br{
+    background-color: green;
+}
+p{
+    background-color: magenta;
+}
+input{
+    background-color: blue;
 }
