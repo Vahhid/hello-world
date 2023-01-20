@@ -3,6 +3,7 @@
         <head>
             <title>Start</title>
             <script src = "js/one.js"> </script>
+            <link rel="stylesheet" href = "css/style.css">
         </head>
         <body>
             <form>
@@ -16,6 +17,16 @@
                 <label> GO</label>
                 <input type = "button" id = "go" width="30px"> 
             </form>
-            
+            <script>
+				let first_name = "vahhid";
+				let last_name = "merech";
+				let current_year = 2023;
+				let birth_year = 1982;
+                let age = current_year - birth_year;
+				let greetings;
+				greetings = `Hello! My Name is ${first_name} last_name and I am 
+				${age}  years old.`
+				document.write(greetings);
+				</script>
         </body>
     </html>
